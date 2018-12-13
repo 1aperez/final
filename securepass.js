@@ -111,8 +111,15 @@ return lengthCheck(password)&& upperCaseCheck(password)&& lowerCaseCheck(passwor
 
 //returns a string which represents the grade for your password
 function grade(password){
-  if(password.length >= 8){
+  if(lengthCheck(password)){
     return "very bad"
   }
-  
+  if(!(upperCaseCheck(password)&&lowerCaseCheck(password))
+  if(numberCheck(password)){
+    return "okay"
+  }
+  if(specialCheck(check)){
+    return "good"
+  }
+  if()
 }
